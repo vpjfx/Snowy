@@ -1,0 +1,21 @@
+{
+  "name": "Snowy — Snow removal · Remoción de nieve",
+  "short_name": "Snowy",
+  "description": "Pide tu cotización y sigue a tu equipo de limpieza de nieve en vivo. Get a quote and track your crew live.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F8FB",
+  "theme_color": "#1565D8",
+  "lang": "en",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Pedir cotización / Get a quote", "short_name": "Cotizar", "url": "./#cotizar", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Panel del equipo / Team panel", "short_name": "Panel", "url": "./#panel", "icons": [{ "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
